@@ -97,5 +97,6 @@
   "coreVersion": "0.8.8",
   "resetKeys": false,
   "safeMode": false,
-  "background": ""
+  "background": "",
+  "manifest": "https://github.com/KevinTheKittyCat/demo-world-ForgeVtt/blob/main/world.json"
 }
