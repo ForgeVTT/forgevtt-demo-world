@@ -98,5 +98,7 @@
   "resetKeys": false,
   "safeMode": false,
   "background": "",
-  "manifest": "https://github.com/KevinTheKittyCat/demo-world-ForgeVtt/blob/main/world.json"
+  "url": "https://github.com/KevinTheKittyCat/demo-world-ForgeVtt",
+  "manifest": "https://github.com/KevinTheKittyCat/demo-world-ForgeVtt/releases/latest/download/world.json",
+  "download": "https://github.com/KevinTheKittyCat/demo-world-ForgeVtt/releases/download/1.0.4/world.zip"
 }
