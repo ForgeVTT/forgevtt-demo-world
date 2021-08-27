@@ -1,10 +1,11 @@
 {
   "name": "demo-world",
   "title": "The Forge Demo and Tutorial",
-  "description": "<h2>To login, use the access key:&nbsp; <strong>forge</strong></h2>\n<p>Discover all the great features of Foundry VTT!</p>\n<p>This demo serves as a Tutorial of Foundry VTT’s features.</p>\n<p>This is still a work in progress.</p>\n<h2>To login, use the access key:&nbsp;&nbsp;<strong>forge</strong></h2>\n",
+  "description": "<h2>To login, use the access key:  <strong>forge</strong></h2>\n<p>Discover all the great features of Foundry VTT!</p>\n<p>This demo serves as a Tutorial of Foundry VTT’s features.</p>\n<p>This is still a work in progress.</p>\n<h2>To login, use the access key:  <strong>forge</strong></h2>",
   "authors": [],
+  "url": "https://github.com/KevinTheKittyCat/demo-world-ForgeVtt",
   "flags": {},
-  "version": "1.0.0",
+  "version": "1.1.0",
   "minimumCoreVersion": "0.0.0",
   "compatibleCoreVersion": "1.0.0",
   "scripts": [
@@ -14,26 +15,6 @@
   "styles": [],
   "languages": [],
   "packs": [
-    {
-      "label": "Legendary items",
-      "entity": "Actor",
-      "name": "legendary-items",
-      "path": "packs/legendary-items.db",
-      "system": "dnd5e",
-      "package": "world",
-      "absPath": "/forge-vtt/users/5e4d44f141c29601b2167a91/Games/demo2/Data/worlds/demo2/packs/legendary-items.db",
-      "private": false
-    },
-    {
-      "label": "ddd",
-      "entity": "Item",
-      "name": "ddd",
-      "path": "packs/ddd.db",
-      "system": "dnd5e",
-      "package": "world",
-      "absPath": "/forge-vtt/users/5e4d44f141c29601b2167a91/Games/demo2/Data/worlds/demo2/packs/ddd.db",
-      "private": false
-    },
     {
       "label": "Nice",
       "entity": "Item",
@@ -93,12 +74,10 @@
     }
   ],
   "socket": false,
+  "manifest": "https://github.com/KevinTheKittyCat/demo-world-ForgeVtt/releases/latest/download/world.json",
+  "download": "https://github.com/KevinTheKittyCat/demo-world-ForgeVtt/releases/download/1.1.0/world.zip",
   "protected": false,
   "coreVersion": "0.8.8",
   "resetKeys": false,
-  "safeMode": false,
-  "background": "",
-  "url": "https://github.com/KevinTheKittyCat/demo-world-ForgeVtt",
-  "manifest": "https://github.com/KevinTheKittyCat/demo-world-ForgeVtt/releases/latest/download/world.json",
-  "download": "https://github.com/KevinTheKittyCat/demo-world-ForgeVtt/releases/download/1.0.4/world.zip"
+  "safeMode": false
 }
