@@ -28,7 +28,7 @@ jobs:
         download: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/world.zip
 
     # Create a zip file with all files required by the world to add to the release
-    - run: zip -r ./demo-world.zip world.json *.js *.json .md data scenes Assets packs -x "."
+    - run: zip -r ./world.zip world.json *.js *.json .md data scenes Assets packs -x "."
 
     # Create a release for this specific version
     - name: Update Release with Files
@@ -40,6 +40,6 @@ jobs:
         draft: ${{ github.event.release.unpublished }}
         prerelease: ${{ github.event.release.prerelease }}
         token: ${{ secrets.GITHUB_TOKEN }}
-        artifacts: './world.json, ./demo-world.zip'
+        artifacts: './world.json, ./world.zip'
         tag: ${{ github.event.release.tag_name }}
         body: ${{ github.event.release.body }}
