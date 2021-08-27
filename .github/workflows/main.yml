@@ -40,6 +40,6 @@ jobs:
         draft: ${{ github.event.release.unpublished }}
         prerelease: ${{ github.event.release.prerelease }}
         token: ${{ secrets.GITHUB_TOKEN }}
-        artifacts: './demo-world.json, ./world.zip'
+        artifacts: './world.json, ./demo-world.zip'
         tag: ${{ github.event.release.tag_name }}
         body: ${{ github.event.release.body }}
