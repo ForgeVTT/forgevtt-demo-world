@@ -72,6 +72,10 @@
       "type": "module",
       "name": "lib-wrapper"
     }
+	{
+      "type": "system",
+      "name": "dnd5e"
+    }
   ],
   "socket": false,
   "manifest": "https://github.com/KevinTheKittyCat/demo-world-ForgeVtt/releases/latest/download/world.json",
