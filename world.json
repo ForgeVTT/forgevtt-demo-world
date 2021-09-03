@@ -71,7 +71,7 @@
     {
       "type": "module",
       "name": "lib-wrapper"
-    }
+    },
 	{
       "type": "system",
       "name": "dnd5e"
