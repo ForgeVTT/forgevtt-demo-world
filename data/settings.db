@@ -19,10 +19,9 @@
 {"_id":"c3LXwy2fjqL5BT0Q","key":"core.rtcWorldSettings","value":"{\"mode\":0,\"server\":{\"type\":\"FVTT\",\"url\":\"\",\"room\":\"wrm48mvb0pkbtmq75vi43q6z49dk3f15\",\"username\":\"\",\"password\":\"\"},\"turn\":{\"type\":\"server\",\"url\":\"\",\"username\":\"\",\"password\":\"\"}}"}
 {"_id":"hwSjQIl0trE5JM3Y","key":"critical-fumble.lootTables","value":"true"}
 {"key":"critical-fumble.criticalTable","value":"false","_id":"hzHcOYzYDE7z7IYQ"}
-{"_id":"jvCoiRn11GhVzImW","key":"dnd5e.systemMigrationVersion","value":"\"1.4.2\""}
+{"_id":"jvCoiRn11GhVzImW","key":"dnd5e.systemMigrationVersion","value":"\"1.4.3\""}
 {"_id":"kd6wZIWzS0bKXNQ4","key":"core.compendiumConfiguration","value":"{\"world.legendary-items\":{\"private\":false,\"locked\":false},\"world.ddd\":{\"private\":false,\"locked\":false},\"world.nice\":{\"private\":false,\"locked\":false},\"world.store\":{\"private\":false,\"locked\":false},\"world.goods\":{\"private\":false,\"locked\":false}}"}
 {"_id":"pQQcZO0uGUiqJfWM","key":"critical-fumble.sounds","value":"true"}
 {"key":"permission_viewer.migrated","value":"1","_id":"tghPkkUB8w12sY4W"}
 {"key":"critical-fumble.coinDistribution","value":"false","_id":"y0SYjmR3AtdmQK4c"}
 {"key":"M.I.N.D.M.A.P. - Moerills Indecision Negator, Decision Maker, And Planner.version","value":"\"0.5.1\"","_id":"yuyPBf65I6DBlXgn"}
-{"_id":"jvCoiRn11GhVzImW","key":"dnd5e.systemMigrationVersion","value":"\"1.4.3\""}
