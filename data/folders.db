@@ -7,7 +7,6 @@
 {"name":"Drawing","type":"JournalEntry","sort":1100000,"flags":{},"parent":"ulB77yo0Bu8BQ3qv","sorting":"a","color":"","_id":"6Bdnr84zajXM3lDY"}
 {"_id":"8WMLJCuzWVEC3pVl","name":"Scene cleanups","type":"JournalEntry","sort":500000,"flags":{},"parent":"dR7El2b0fOFqjQz9","color":""}
 {"_id":"9NqSwZJmcPxIoVG5","name":"Proceed","type":"Actor","sort":300000,"flags":{},"parent":null,"sorting":"a","color":""}
-{"_id":"9qfiGxHJ1dSTUKfy","name":"Characters","type":"Actor","sort":200000,"flags":{},"parent":null,"sorting":"a","color":""}
 {"_id":"CR2TPhNltW9JHvgE","name":"Sound","type":"Actor","sort":600000,"flags":{},"parent":null,"sorting":"a","color":""}
 {"_id":"H1jyfrtD5iOpCWZh","name":"Dialog Messages","type":"JournalEntry","sort":500000,"flags":{},"parent":null,"color":""}
 {"name":"Bandits","type":"JournalEntry","sort":1300000,"flags":{},"parent":"H1jyfrtD5iOpCWZh","sorting":"a","color":"","_id":"I0fRwOJ7pqQH2Hsi"}
@@ -26,3 +25,6 @@
 {"name":"Critical Fumble Loot","type":"RollTable","sort":null,"flags":{},"parent":null,"color":"red","_id":"uA96vchUswP4HkYC"}
 {"name":"Scenes","type":"JournalEntry","sort":800000,"flags":{},"parent":"dR7El2b0fOFqjQz9","color":"","_id":"ulB77yo0Bu8BQ3qv"}
 {"_id":"v1PUWQIhNzdUG4xz","name":"Sheet","type":"Actor","sort":1100000,"flags":{},"parent":null,"sorting":"a","color":""}
+{"$$deleted":true,"_id":"SflPNPSlUKYX3wue"}
+{"$$deleted":true,"_id":"2dxIMs9EwDCWl0xx"}
+{"$$deleted":true,"_id":"9NqSwZJmcPxIoVG5"}
