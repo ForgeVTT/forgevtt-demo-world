@@ -1,17 +1,14 @@
 {"name":"Combat train","type":"JournalEntry","sort":null,"flags":{},"parent":null,"color":"","_id":"13SkLd4Iv0MxKBVC"}
 {"name":"Prison","type":"JournalEntry","sort":900000,"flags":{},"parent":"H1jyfrtD5iOpCWZh","color":"","_id":"1tcqMNXui4Ju4HQg"}
 {"_id":"21GneuYBPiwA5qUs","name":"Paper","type":"Actor","sort":800000,"flags":{},"parent":null,"sorting":"a","color":"#cfcfcf"}
-{"_id":"2dxIMs9EwDCWl0xx","name":"Items","type":"Actor","sort":1000000,"flags":{},"parent":null,"sorting":"a","color":""}
 {"name":"Music","type":"JournalEntry","sort":1400000,"flags":{},"parent":"H1jyfrtD5iOpCWZh","sorting":"a","color":"","_id":"3ECjodFwTyXdukkS"}
 {"name":"Mindmaps","type":"JournalEntry","sort":300000,"flags":{},"parent":null,"color":"#9d4848","_id":"50auFY42bpchWWHv"}
 {"name":"Drawing","type":"JournalEntry","sort":1100000,"flags":{},"parent":"ulB77yo0Bu8BQ3qv","sorting":"a","color":"","_id":"6Bdnr84zajXM3lDY"}
 {"_id":"8WMLJCuzWVEC3pVl","name":"Scene cleanups","type":"JournalEntry","sort":500000,"flags":{},"parent":"dR7El2b0fOFqjQz9","color":""}
-{"_id":"9NqSwZJmcPxIoVG5","name":"Proceed","type":"Actor","sort":300000,"flags":{},"parent":null,"sorting":"a","color":""}
 {"_id":"CR2TPhNltW9JHvgE","name":"Sound","type":"Actor","sort":600000,"flags":{},"parent":null,"sorting":"a","color":""}
 {"_id":"H1jyfrtD5iOpCWZh","name":"Dialog Messages","type":"JournalEntry","sort":500000,"flags":{},"parent":null,"color":""}
 {"name":"Bandits","type":"JournalEntry","sort":1300000,"flags":{},"parent":"H1jyfrtD5iOpCWZh","sorting":"a","color":"","_id":"I0fRwOJ7pqQH2Hsi"}
 {"name":"Critical Fumble","type":"RollTable","sort":null,"flags":{},"parent":null,"color":"green","_id":"K3gHPrijwluz7NGa"}
-{"_id":"SflPNPSlUKYX3wue","name":"Combat Training","type":"Actor","sort":500000,"flags":{},"parent":null,"sorting":"a","color":""}
 {"name":"Items","type":"JournalEntry","sort":1200000,"flags":{},"parent":"H1jyfrtD5iOpCWZh","sorting":"a","color":"","_id":"TKs7QRSZJFDNtUBK"}
 {"_id":"Zs1B83bdyCsHg3pt","name":"Prison","type":"Actor","sort":400000,"flags":{},"parent":null,"sorting":"a","color":""}
 {"_id":"cvY78l8Vor3BdMFb","name":"Hero","type":"Actor","sort":100000,"flags":{},"parent":null,"sorting":"m","color":"#76b778"}
@@ -25,6 +22,3 @@
 {"name":"Critical Fumble Loot","type":"RollTable","sort":null,"flags":{},"parent":null,"color":"red","_id":"uA96vchUswP4HkYC"}
 {"name":"Scenes","type":"JournalEntry","sort":800000,"flags":{},"parent":"dR7El2b0fOFqjQz9","color":"","_id":"ulB77yo0Bu8BQ3qv"}
 {"_id":"v1PUWQIhNzdUG4xz","name":"Sheet","type":"Actor","sort":1100000,"flags":{},"parent":null,"sorting":"a","color":""}
-{"$$deleted":true,"_id":"SflPNPSlUKYX3wue"}
-{"$$deleted":true,"_id":"2dxIMs9EwDCWl0xx"}
-{"$$deleted":true,"_id":"9NqSwZJmcPxIoVG5"}
