@@ -2,11 +2,12 @@
   "name": "forgevtt-demo-world",
   "title": "The Forge Demo and Tutorial",
   "description": "<h2>To login, use the access key:  <strong>forge</strong></h2>\n<p>Discover all the great features of Foundry VTT!</p>\n<p>This demo serves as a Tutorial of Foundry VTT’s features.</p>\n<p>This is still a work in progress.</p>\n<h2>To login, use the access key:  <strong>forge</strong></h2>",
+  "author": "The Forge",
   "authors": [
     "Kevin",
-    "ForgeVTT"
+    "The Forge"
   ],
-  "url": "https://github.com/KevinTheKittyCat/demo-world-ForgeVtt",
+  "url": "https://github.com/ForgeVTT/forgevtt-demo-world",
   "flags": {},
   "version": "1.1.0",
   "minimumCoreVersion": "0.8.8",
@@ -25,7 +26,6 @@
       "path": "packs/nice.db",
       "system": "dnd5e",
       "package": "world",
-      "absPath": "/forge-vtt/users/5e4d44f141c29601b2167a91/Games/demo2/Data/worlds/demo2/packs/nice.db",
       "private": false
     },
     {
@@ -35,7 +35,6 @@
       "path": "packs/store.db",
       "system": "dnd5e",
       "package": "world",
-      "absPath": "/forge-vtt/users/5e4d44f141c29601b2167a91/Games/demo2/Data/worlds/demo2/packs/store.db",
       "private": false
     },
     {
@@ -45,7 +44,6 @@
       "path": "packs/goods.db",
       "system": "dnd5e",
       "package": "world",
-      "absPath": "/forge-vtt/users/5e4d44f141c29601b2167a91/Games/demo2/Data/worlds/demo2/packs/goods.db",
       "private": false
     }
   ],
@@ -81,8 +79,8 @@
     }
   ],
   "socket": false,
-  "manifest": "https://github.com/KevinTheKittyCat/demo-world-ForgeVtt/releases/latest/download/world.json",
-  "download": "https://github.com/KevinTheKittyCat/demo-world-ForgeVtt/releases/download/1.1.0/world.zip",
+  "manifest": "https://github.com/ForgeVTT/forgevtt-demo-world/releases/latest/download/world.json",
+  "download": "https://github.com/ForgeVTT/forgevtt-demo-world/releases/download/1.1.0/world.zip",
   "protected": false,
   "coreVersion": "0.8.9",
   "resetKeys": false,
