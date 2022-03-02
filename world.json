@@ -26,7 +26,8 @@
       "path": "packs/nice.db",
       "system": "dnd5e",
       "package": "world",
-      "private": false
+      "private": false,
+      "type": "Item"
     },
     {
       "label": "Store",
@@ -35,7 +36,8 @@
       "path": "packs/store.db",
       "system": "dnd5e",
       "package": "world",
-      "private": false
+      "private": false,
+      "type": "Item"
     },
     {
       "label": "Goods",
@@ -44,7 +46,8 @@
       "path": "packs/goods.db",
       "system": "dnd5e",
       "package": "world",
-      "private": false
+      "private": false,
+      "type": "Item"
     }
   ],
   "system": "dnd5e",
@@ -82,8 +85,8 @@
   "manifest": "https://github.com/ForgeVTT/forgevtt-demo-world/releases/latest/download/world.json",
   "download": "https://github.com/ForgeVTT/forgevtt-demo-world/releases/download/1.1.0/world.zip",
   "protected": false,
-  "coreVersion": "0.8.9",
+  "coreVersion": "9.251",
   "resetKeys": false,
   "safeMode": false,
-  "systemVersion": "1.4.3"
+  "systemVersion": "1.5.7"
 }
