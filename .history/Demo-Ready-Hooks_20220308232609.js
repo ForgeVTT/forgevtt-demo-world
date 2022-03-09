@@ -27,14 +27,14 @@ Hooks.on("renderBasePlaceableHUD", (a, b, tokenData) => {
     }
 });
 
-// Look at this for error relating to "Cannot read properties of undefined (reading 'mouseInteractionManager')"
-for (const targetId of targets) {
-    token = canvas.tokens.get(targetId);
-    token.mouseInteractionManager.callbacks.clickRight2 = () => {
-        token.setTarget(!token.isTargeted, game.user, true, false);
+Hooks.once(`ready`, () => {
+    for (const targetId of targets) {
+        token = canvas.tokens.get(targetId);
+        token.mouseInteractionManager.callbacks.clickRight2 = () => {
+            token.setTarget(!token.isTargeted, game.user, true, false);
+        }
     }
-}
-
+})
 
 /*
 actorsToRemove.forEach(a => {
