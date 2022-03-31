@@ -9,15 +9,18 @@
 {"_id":"H1jyfrtD5iOpCWZh","name":"Dialog Messages","type":"JournalEntry","sort":500000,"flags":{},"parent":null,"color":""}
 {"name":"Bandits","type":"JournalEntry","sort":1300000,"flags":{},"parent":"H1jyfrtD5iOpCWZh","sorting":"a","color":"","_id":"I0fRwOJ7pqQH2Hsi"}
 {"name":"Critical Fumble","type":"RollTable","sort":null,"flags":{},"parent":null,"color":"green","_id":"K3gHPrijwluz7NGa"}
+{"name":"New","type":"Item","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"QIys8YA3T3scMmWN"}
+{"_id":"RSAuUOSg4A66y4aM","name":"Macro Items (old)","type":"Item","parent":null,"sorting":"a","sort":0,"color":"","flags":{}}
 {"name":"Items","type":"JournalEntry","sort":1200000,"flags":{},"parent":"H1jyfrtD5iOpCWZh","sorting":"a","color":"","_id":"TKs7QRSZJFDNtUBK"}
 {"_id":"Zs1B83bdyCsHg3pt","name":"Prison","type":"Actor","sort":400000,"flags":{},"parent":null,"sorting":"a","color":""}
 {"name":"Phi","type":"Macro","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"bHVMMWIpvzR8uKku"}
 {"_id":"cvY78l8Vor3BdMFb","name":"Hero","type":"Actor","sort":100000,"flags":{},"parent":null,"sorting":"m","color":"#76b778"}
+{"name":"Weapon Folders","type":"JournalEntry","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"dCmOlfdCHFLeuxid"}
 {"_id":"dR7El2b0fOFqjQz9","name":"Trigger Happy","type":"JournalEntry","sort":100000,"flags":{},"parent":null,"color":"#3f6c33"}
 {"name":"Old Triggers","type":"JournalEntry","sort":400000,"flags":{},"parent":null,"color":"","_id":"hlbKlFiFlRDVmi3O"}
 {"name":"Interface","type":"JournalEntry","sort":700000,"flags":{},"parent":"H1jyfrtD5iOpCWZh","color":"","_id":"j4a6y201KJtcon7S"}
 {"_id":"nHIunbj1r9xkeOq8","name":"Bandit","type":"Actor","sort":900000,"flags":{},"parent":null,"sorting":"a","color":""}
-{"name":"Macro items","type":"Item","sort":null,"flags":{},"parent":null,"sorting":"a","color":"","_id":"oCvqUfdM6hQ7SN9x"}
+{"_id":"oCvqUfdM6hQ7SN9x","name":"Macro items","type":"Item","parent":null,"sorting":"a","sort":0,"color":null,"flags":{}}
 {"_id":"qzAyRj3sTfT4yG2z","name":"Interface","type":"Actor","sort":700000,"flags":{},"parent":null,"sorting":"a","color":""}
 {"name":"Default","type":"Scene","sort":null,"flags":{},"parent":null,"sorting":"a","color":"","_id":"rdD6x9NEsMfvDAoJ"}
 {"name":"Critical Fumble Loot","type":"RollTable","sort":null,"flags":{},"parent":null,"color":"red","_id":"uA96vchUswP4HkYC"}
