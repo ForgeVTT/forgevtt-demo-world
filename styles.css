@@ -1,0 +1,29 @@
+.bootleg-item-card h3 {
+    margin: auto 0;
+    line-height: 24px;
+    font-family: "Modesto Condensed", "Palatino Linotype", serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #4b4a44;
+    padding: 5px;
+}
+
+.bootleg-item-card h3:hover {
+    color: #111;
+    text-shadow: 0 0 10px red;
+}
+
+.bootleg-item-card {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.transition {
+    padding: 20% !important;
+}
+
+.transition-content {
+    position: initial !important;
+    transform: none !important;
+}
