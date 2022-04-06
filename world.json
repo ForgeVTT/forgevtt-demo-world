@@ -17,7 +17,7 @@
     "Kekilla0-Universal-Chat-Message-Buttons.js"
   ],
   "esmodules": [],
-  "styles": [],
+  "styles": ["styles.css"],
   "languages": [],
   "packs": [
     {
