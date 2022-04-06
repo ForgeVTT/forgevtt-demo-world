@@ -1,6 +1,19 @@
+const actorsToRemove = ["Voo7V2dvjq8OB72O"];  // This can be added in the script with the other actors
+const targets = ['8EdIT1rTFAjaQYc9'];
+let tokenIdToRemove = ["8EdIT1rTFAjaQYc9"];
+
+
 Hooks.on("canvasReady", () => {
     canvas.tokens.releaseAll()
     console.log("released")
+	
+	// Look at this for error relating to "Cannot read properties of undefined (reading 'mouseInteractionManager')"
+	for (const targetId of targets) {
+    token = canvas.tokens.get(targetId);
+    if (token) token.mouseInteractionManager.callbacks.clickRight2 = () => {
+        token.setTarget(!token.isTargeted, game.user, true, false);
+		}
+	}
 })
 
 Hooks.once('ready', () => {
@@ -11,9 +24,6 @@ Hooks.once('ready', () => {
 })
 
 // Double click macro
-const actorsToRemove = ["Voo7V2dvjq8OB72O"];  // This can be added in the script with the other actors
-const targets = ['8EdIT1rTFAjaQYc9'];
-let tokenIdToRemove = ["8EdIT1rTFAjaQYc9"];
 
 Hooks.on("renderBasePlaceableHUD", (a, b, tokenData) => {
     if (game.user.role === 1) {
@@ -26,14 +36,6 @@ Hooks.on("renderBasePlaceableHUD", (a, b, tokenData) => {
         }
     }
 });
-
-// Look at this for error relating to "Cannot read properties of undefined (reading 'mouseInteractionManager')"
-for (const targetId of targets) {
-    token = canvas.tokens.get(targetId);
-    token.mouseInteractionManager.callbacks.clickRight2 = () => {
-        token.setTarget(!token.isTargeted, game.user, true, false);
-    }
-}
 
 
 /*
