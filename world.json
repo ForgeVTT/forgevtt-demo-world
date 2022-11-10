@@ -5,6 +5,9 @@
     {
       "name": "Kevin",
       "flags": {}
+    },{
+      "name": "Phi",
+      "flags": {}
     },
     {
       "name": "The Forge",
@@ -12,7 +15,7 @@
     }
   ],
   "url": "https://github.com/ForgeVTT/forgevtt-demo-world",
-  "version": "1.1.0",
+  "version": "2.10.0",
   "scripts": [
     "Demo-Ready-Hooks.js",
     "Kekilla0-Universal-Chat-Message-Buttons.js"
@@ -51,7 +54,7 @@
   ],
   "system": "dnd5e",
   "manifest": "https://github.com/ForgeVTT/forgevtt-demo-world/releases/latest/download/world.json",
-  "download": "https://github.com/ForgeVTT/forgevtt-demo-world/releases/download/1.1.0/world.zip",
+  "download": "https://github.com/ForgeVTT/forgevtt-demo-world/releases/download/2.10.0/world.zip",
   "coreVersion": "10.288",
   "resetKeys": false,
   "safeMode": false,
@@ -75,7 +78,7 @@
         "compatibility": {}
       },
       {
-        "id": "parallaxia",
+        "id": "tile-scroll",
         "type": "module",
         "compatibility": {}
       },
@@ -86,6 +89,21 @@
       },
       {
         "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "socket-lib",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "acelib",
         "type": "module",
         "compatibility": {}
       }
