@@ -23,6 +23,10 @@
     width: 50vw !important;
 }
 
+h3 {
+    border-bottom: none !important;
+}
+
 /*
 .transition {
     padding: 20% !important;
