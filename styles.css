@@ -18,6 +18,11 @@
     flex-direction: row;
     align-content: center;
 }
+
+.dialog {
+    width: 50vw !important;
+}
+
 /*
 .transition {
     padding: 20% !important;
