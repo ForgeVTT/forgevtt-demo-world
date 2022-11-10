@@ -81,7 +81,11 @@ Hooks.on('TriggerHappy', async (key, args) => {
         case 'sceneTransition':
             // TriggerHappy does split(" ") so we rejoin the args to form a string to pass as transition content
             // /Transition2 "Display this as text"
-            await game.macros.getName("Transition2").execute(args.join(" "));
+            const bgImg = args.find(a => a.includes(".png") || a.includes(".webp"));
+            if (bgImg) {
+                args = args.filter(a => a !== bgImg);
+            }
+            await game.macros.getName("Transition2").execute(args.join(" "), bgImg || "");
             break;
         case 'panCamera':
             // /pan-camera x y scale
