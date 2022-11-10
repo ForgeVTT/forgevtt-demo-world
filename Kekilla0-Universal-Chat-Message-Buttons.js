@@ -46,7 +46,7 @@ Hooks.once(`ready`, () => {
 
     if(!button) return;
 
-    const speaker = Object.values(this.data.speaker.toObject()).reduce((a,v) => a || !!v, false) ? this.data.speaker : ChatMessage.getSpeaker();
+    const speaker = Object.values(this.speaker).reduce((a,v) => a || !!v, false) ? this.speaker : ChatMessage.getSpeaker();
     const character = game.user.character;
     const actor = speaker?.actor ? game.actors.get(speaker.actor) : null;
     const token = speaker?.token ? canvas.tokens.get(speaker.token) : null;
