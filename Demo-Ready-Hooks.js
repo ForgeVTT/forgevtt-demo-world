@@ -73,7 +73,7 @@ Hooks.once('setup', function () {
 });
 
 Hooks.on('TriggerHappy', async (key, args) => {
-    console.log(`TriggerHappy custom effect: ${key} with args: ${JSON.stringify(args)}`)
+    // console.log(`TriggerHappy custom effect: ${key} with args: ${JSON.stringify(args)}`)
     // 'key' is the reference name of the custom effect without the initial @
     // 'args' is the array of string to use like arguments for your code
     // TriggerHappy args are already read as strings, so don't give them quotation marks in journal ""
