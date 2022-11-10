@@ -1,93 +1,123 @@
 {
-  "name": "forgevtt-demo-world",
   "title": "The Forge Demo and Tutorial",
   "description": "<h2>To login, use the access key:  <strong>forge</strong></h2>\n<p>Discover all the great features of Foundry VTT!</p>\n<p>This demo serves as a Tutorial of Foundry VTT’s features.</p>\n<p>This is still a work in progress.</p>\n<h2>To login, use the access key:  <strong>forge</strong></h2>",
-  "author": "The Forge",
   "authors": [
-    "Kevin",
-    "The Forge"
+    {
+      "name": "Kevin",
+      "flags": {}
+    },{
+      "name": "Phi",
+      "flags": {}
+    },
+    {
+      "name": "The Forge",
+      "flags": {}
+    }
   ],
   "url": "https://github.com/ForgeVTT/forgevtt-demo-world",
-  "flags": {},
-  "version": "1.1.0",
-  "minimumCoreVersion": "0.8.8",
-  "compatibleCoreVersion": "1.0.0",
+  "version": "2.10.0",
   "scripts": [
     "Demo-Ready-Hooks.js",
     "Kekilla0-Universal-Chat-Message-Buttons.js"
   ],
-  "esmodules": [],
-  "styles": ["styles.css"],
-  "languages": [],
+  "styles": [
+    "styles.css"
+  ],
   "packs": [
     {
       "label": "Nice",
-      "entity": "Item",
       "name": "nice",
       "path": "packs/nice.db",
       "system": "dnd5e",
-      "package": "world",
       "private": false,
-      "type": "Item"
+      "type": "Item",
+      "flags": {}
     },
     {
       "label": "Store",
-      "entity": "Item",
       "name": "store",
       "path": "packs/store.db",
       "system": "dnd5e",
-      "package": "world",
       "private": false,
-      "type": "Item"
+      "type": "Item",
+      "flags": {}
     },
     {
       "label": "Goods",
-      "entity": "Item",
       "name": "goods",
       "path": "packs/goods.db",
       "system": "dnd5e",
-      "package": "world",
       "private": false,
-      "type": "Item"
+      "type": "Item",
+      "flags": {}
     }
   ],
   "system": "dnd5e",
-  "dependencies": [
-    {
-      "type": "module",
-      "name": "trigger-happy"
-    },
-    {
-      "type": "module",
-      "name": "advanced-macros"
-    },
-    {
-      "type": "module",
-      "name": "scene-transitions"
-    },
-    {
-      "type": "module",
-      "name": "parallaxia"
-    },
-    {
-      "type": "module",
-      "name": "itemacro"
-    },
-    {
-      "type": "module",
-      "name": "lib-wrapper"
-    },
-    {
-      "type": "system",
-      "name": "dnd5e"
-    }
-  ],
-  "socket": false,
   "manifest": "https://github.com/ForgeVTT/forgevtt-demo-world/releases/latest/download/world.json",
-  "download": "https://github.com/ForgeVTT/forgevtt-demo-world/releases/download/1.1.0/world.zip",
-  "protected": false,
-  "coreVersion": "9.251",
+  "download": "https://github.com/ForgeVTT/forgevtt-demo-world/releases/download/2.10.0/world.zip",
+  "coreVersion": "10.288",
   "resetKeys": false,
   "safeMode": false,
-  "systemVersion": "1.5.7"
+  "systemVersion": "2.0.3",
+  "id": "forgevtt-demo-world",
+  "relationships": {
+    "requires": [
+      {
+        "id": "trigger-happy",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "advanced-macros",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "scene-transitions",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tile-scroll",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "itemacro",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "socket-lib",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "acelib",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.288"
+  }
 }
