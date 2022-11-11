@@ -93,11 +93,6 @@
         "compatibility": {}
       },
       {
-        "id": "socket-lib",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
         "id": "monks-active-tiles",
         "type": "module",
         "compatibility": {}
