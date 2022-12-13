@@ -5,7 +5,8 @@
     {
       "name": "Kevin",
       "flags": {}
-    },{
+    },
+    {
       "name": "Phi",
       "flags": {}
     },
@@ -55,7 +56,7 @@
   "system": "dnd5e",
   "manifest": "https://github.com/ForgeVTT/forgevtt-demo-world/releases/latest/download/world.json",
   "download": "https://github.com/ForgeVTT/forgevtt-demo-world/releases/download/2.10.0/world.zip",
-  "coreVersion": "10.288",
+  "coreVersion": "10.291",
   "resetKeys": false,
   "safeMode": false,
   "systemVersion": "2.0.3",
@@ -113,6 +114,6 @@
   },
   "compatibility": {
     "minimum": "10",
-    "verified": "10.288"
+    "verified": "10.291"
   }
 }
